@@ -1,10 +1,14 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div{
-    margin: 30px 50px 0 50px;
+.container{
+    margin: 10px 50px 0 50px;
+    background-color: lightgreen;
+    border: 5px solid green;
+    border-radius: 20px;
+    padding: 20px;
 }
-header{
+header, main{
     padding-bottom: 10px;
     border-bottom: 2px dotted black;
 }
@@ -21,9 +25,10 @@ li{
     align-self: center;
 }
 a{
+    font-size: 110%;
     color: black;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s linear;
 }
 a:hover{
     border-bottom: 3px solid blue;
@@ -34,7 +39,4 @@ a:hover{
     max-height: 100px;
     border-radius: 50%;
     justify-self: left;
-}
-footer{
-    padding: 0 5%;
 }
