@@ -1,4 +1,4 @@
-/* betűstílus */
+/* betű-(és háttér)stílus */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: light-dark(#ffffff, #000000);
