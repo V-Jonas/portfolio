@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
+    <!-- konténer -->
+    <div class="container card">
+    <!-- dark-mode váltogató -->
+    <section aria-label="Color scheme switcher">
+        <button class="mode-switch" aria-pressed="false" value="light">Light</button>
+        <button class="mode-switch" aria-pressed="false" value="dark">Dark</button>
+    </section>
     <!-- fejléc -->
     <header> 
         <!-- navigáció -->
@@ -19,8 +28,6 @@
             </ul>
         </nav>
     </header>
-    <!-- konténer -->
-    <div class="container card">
     <!-- fő tartalom -->
     <main>
         <div>
