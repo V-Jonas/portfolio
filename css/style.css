@@ -1,6 +1,8 @@
+/* betűstílus */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* konténer */
 .container{
     margin: 10px 50px 0 50px;
     background-color: lightgreen;
@@ -8,10 +10,13 @@ body{
     border-radius: 20px;
     padding: 20px;
 }
+/* különválasztás */
 header, main{
+    margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 2px dotted black;
 }
+/* fejléc tartalmi formázása*/
 nav{
     display: flex;
 }
@@ -39,4 +44,26 @@ a:hover{
     max-height: 100px;
     border-radius: 50%;
     justify-self: left;
+}
+/* a tartalom megjelenési stílusa */
+.card{
+    width: 80%;
+    justify-self: center;
+}
+#jelenleg, #contact{
+    display: flex;
+}
+div#logo, div#iakk{
+    display: block;
+}
+#jelenleg img{
+    height: 150px; 
+    width: 150px; 
+    margin-left: 100px;
+}
+#contact img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border: 1px solid darkgoldenrod;
 }

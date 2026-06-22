@@ -6,32 +6,50 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
-
 <body>
-    <header>
+    <!-- fejléc -->
+    <header> 
+        <!-- navigáció -->
         <nav>
             <img src="img/profile_varesh-mukhekar_20260621170448.avif" alt="profilkép" id="profile">
             <ul>
-                <li><a href="#home">Főoldal</a></li>
+                <li><a href="#main">Bevezető</a></li>
                 <li><a href="#bio">Életpálya</a></li>
                 <li><a href="#contact">Elérhetőségek</a></li>
             </ul>
         </nav>
     </header>
-    <div class="container">
+    <!-- konténer -->
+    <div class="container card">
+    <!-- fő tartalom -->
     <main>
         <div>
             <section>
-                <article>
-                    <h2>Bevezető</h2> 
+                <article id="main">
+                    <h2>Bevezető</h2>
                     <p>Jónás Viktor vagyok, 23 éves.</p>
-                    <p>Jelenleg Pécsen élek, és a Simonyi Károly Technikumban folytatom tanulmányaimat<br> az 1/13-4-es osztály szoftvertervező csoport körében.</p>
+                    <div id="jelenleg">
+                        <p>Jelenleg Pécsen élek, és a Simonyi Károly Technikumban folytatom tanulmányaimat<br> az 1/13-4-es osztály szoftvertervező csoport körében.</p>
+                        <img src="img/logo.jpg" alt="iskola_logo">
+                        <img src="img/iakk.png" alt="iakk">
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div>
+            <section>
+                <article id="bio">
+                    <h2>Életpálya</h2>
                 </article>
             </section>
         </div>
     </main>
+    <!-- lábléc az elérhetőségeknek -->
     <footer>
-        <h2>Elérhetőségek</h2>
+        <div id="contact">
+            <img src="img/contact.png" alt="elerhetoseg">
+            <h2>Elérhetőségek</h2>
+        </div>
         <h4>E-mail:</h4>
         <p>iskolai: jonas.viktor@simonyiszki.org</p>
         <p>magán: jonasciktor2002@gmail.com</p>
