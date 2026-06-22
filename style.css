@@ -1,6 +1,13 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+div{
+    margin: 30px 50px 0 50px;
+}
+header{
+    padding-bottom: 10px;
+    border-bottom: 2px dotted black;
+}
 nav{
     display: flex;
 }
@@ -27,4 +34,7 @@ a:hover{
     max-height: 100px;
     border-radius: 50%;
     justify-self: left;
+}
+footer{
+    padding: 0 5%;
 }
